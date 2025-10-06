@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100GENIUS</title>                  
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./fontawesome/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>                               
+  </head>
+<body>
+
+  <!--the header-->
+    <header>
+        <img src="images/davidoo.png" class="logo-image reveal">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <ul class="navbar reveal">                                                     
+            <li><a href="http://127.0.0.1:5500/index.html" class="home-active">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/aboutus.html"class="Aboutus">About Us</a></li>
+            <li><a href="http://127.0.0.1:5500/service.html" class="our-services">Our Services</a></li>
+        </ul>
+        <div class="profile reveal">
+            <img src="images/wilson pics.png" class="profile-img">
+            <span class="profile-span">Bars of IQ</span>
+            <i class="fa-solid fa-caret-down my-icon"></i>
+        </div>
+    </header> 
+<section id="enroll">
+  <button class="enroll-button" onclick="toggleForm()">Click to Enroll</button>
+
+  <!-- Enrollment Form -->
+  <div class="enroll-form-container" id="enrollForm">
+    <form onsubmit="handleSubmit(event)">
+      <div>
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div>
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div>
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+
+      <div>
+        <label for="course">Select Course *</label>
+        <select id="course" name="course" required>
+          <option value="" disabled selected>-- Choose a course --</option>
+          <option value="Web Development">Web Development</option>
+          <option value="Data Analysis">Data Analysis</option>
+          <option value="UI/UX Design">UI/UX Design</option>
+          <option value="Cybersecurity">Cybersecurity</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="message">Why do you want to join? (optional)</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+
+      <button type="submit">Submit Enrollment</button>
+    </form>
+  </div>
+</section>
+           
+      <section class="section3">
+
+        <div class="why-100genius-container">
+          <img src="images/BASTART.jpg" class="baby reveal">
+          <div class="secondbox reveal">
+            <h1>why 100 Genius?</h1>
+          </div>
+
+          <div class="secondbox2">
+            <div> 
+              <p class="yo reveal">Our team consists of industry professionals and educators <br>who bring real-world experience and passion for teaching.</p><br>     
+              <p class="yo reveal"> Join a vibrant community of like-minded individuals and <br>connect with professionals and mentors who can guide <br> you on your journey.</p><br>
+              <p class="yo reveal">Our instructors aren’t just educators—they’re seasoned<br> professionals with real-world experience in their fields. <br>They bring valuable insights, practical skills, and industry <br>knowledge directly to the classroom.</p>
+            </div>
+          </div>
+  
+        </div>
+  
+      </section>
+
+
+
+    <section class="section2">
+      <div class="about-us">
+        <h1>About Us</h1><br>
+      </div>
+      <div class="aboutus-container">
+        <div class="box reveal">
+          <h1 class="mission">Our mission</h1>
+          <p class="yo reveal">our mission is to equip you with <br>the skills and knowledge necessary <br> to excel in technology-driven careers.<br> We believe in fostering a culture of <br> creativity,critical thinking, and <br> collaboration, ensuring that you are <br> not just consumers of technology but <br> creators as well.</p>
+        </div>
+        <div class="box2 reveal">
+          <h1 class="mission">Our vision</h1>
+          <p class="yo reveal">At 100 Genius, we envision a future <br>where creativity and critical thinking <br>are at the forefront of education. <br>Our academy aims to cultivate a new <br>generation of innovators, problem solvers, <br> and leaders who are not only skilled but <br> also equipped to tackle the challenges of <br>tomorrow.</p>
+        </div>
+        <div class="box3 reveal">
+          <h1 class="mission">Our aproach</h1>
+          <p class="yo reveal">we emphasize experiential learning. <br>Our immersive bootcamps combine <br>theory with practice, allowing students <br> to engage in collaborative projects, <br> interactive workshops, and real-world <br> challenges. We foster a supportive <br> community where learners can share <br>ideas, seek feedback, and grow together.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+    <section class="section23">
+      <div class="section3-container">
+        <div class="become-genius reveal">
+          <h1 class="genius reveal">Becoming A Perfect <br>Genius in tech</h1>
+          <h4 class="one-graph reveal">Becoming a "genius" in technology is not an overnight accomplishment—it's a process of continuous</h4>
+          <h4 class="two-graph reveal">learning, curiosity, and consistent effort.Whether you're aiming to master coding, understand </h4>
+          <h4 class="three-graph reveal">the latest in artificial intelligence, or develop cutting-edge software solutions, the journey </h4>
+          <h4 class="four-graph reveal">requires dedication, creativity, and the willingness to challenge yourself.</h4> 
+          <h4 class="five-graph reveal">Here’s how you can work toward becoming a genius in tech:</h4>
+        </div>
+      </div>
+
+    </section>
+    <section class="section4">
+      <div class="section4-container">
+        <div class="sharp1 reveal">
+          <a href="http://127.0.0.1:5500/enrol.html" class="Get-started reveal">Get Started</a><br> <br>
+          <h3 class="join-us reveal">Join us now</h3>
+          <p class="will reveal">an opportunity to become part of something meaningful, exciting,<br> and impactful. there are countless benefits to getting involved, <br> and the time to take action is now.</p>       
+          <img src="images/obo.jpg" class="firstimage reveal">
+        </div>
+        <div class="vertical-line reveal"></div>
+        <div class="sharp2 reveal">
+          <a href="" class="learn-more reveal">learn more</a><br> <br>
+          <h3 class="interested reveal">Interested?</h3>
+          <p class="will2 reveal">So, what are you waiting for? Learn more—ask questions,<br> explore new topics, challenge your assumptions, and push<br> the boundaries of what you know. </p>
+          <img src="images/obo2.jpg" class="secondimage reveal">
+          
+        </div>
+      </div>
+    </section>
+    <section class="section5">   
+      <div class="section5-container reveal">
+        <div>
+          <h1 class="our-teamh1 reveal">Our Leadership</h1>
+        </div>
+        <div><hr><div>
+          <br>
+          <div class="our-team reveal">
+  <div class="team-member">
+    <img src="images/wilson pics.png" alt="Osara Wilson" class="team-img">
+    <div class="team-info">
+      <span class="team-name">Osara Wilson</span>
+      <span class="team-title">Chief Executive Officer (CEO)</span>
+      <a href="https://www.linkedin.com/in/osara-wilson" target="_blank" class="linkedin-link">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="team-member">
+    <img src="images/sis.jpg" alt="Sandra Andrew-Urom" class="team-img">
+    <div class="team-info">
+      <span class="team-name">Sandra Andrew-Urom</span>
+      <span class="team-title">Chief Information Officer (CIO)</span>
+      <a href="https://www.linkedin.com/in/sandra-andrew-urom" target="_blank" class="linkedin-link">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="team-member">
+    <img src="images/bbbyyy.jpg" alt="Kitomashi Manuman" class="team-img">
+    <div class="team-info">
+      <span class="team-name">Kitomashi Manuman</span>
+      <span class="team-title">Chief Business Officer (CBO)</span>
+      <a href="https://www.linkedin.com/in/kitomashi-manuman" target="_blank" class="linkedin-link">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="team-member">
+    <img src="images/baby image.jpg" alt="Monique Sandra" class="team-img">
+    <div class="team-info">
+      <span class="team-name">Monique Sandra</span>
+      <span class="team-title">Chief Technology Officer (CTO)</span>
+      <a href="https://www.linkedin.com/in/monique-sandra" target="_blank" class="linkedin-link">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+    </section>
+    <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <img src="images/davidoo.png" alt="100 Genius Logo" class="footer-logo">
+      
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/css/service.html">Our Services</a></li>
+        <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+        <li><a href="http://127.0.0.1:5500/enrol.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p><i class="fa-solid fa-location-dot"></i> Lagos, Nigeria</p>
+      <p><i class="fa-solid fa-phone"></i> +234 9065643879</p>
+      <p><i class="fa-solid fa-envelope"></i>100sgenius@gmail.com</p>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <hr>
+    <p>© 2025 100 Genius Academy. All rights reserved.</p>
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>

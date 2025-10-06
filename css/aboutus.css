@@ -1,0 +1,81 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafc;
+      color: #1f1f1f;
+      padding: 50px 20px;
+    }
+
+    .about-section {
+      max-width: 960px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 60px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    }
+
+    .about-section h2 {
+      font-size: 2.6rem;
+      color: green;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .about-section p {
+      font-size: 1.125rem;
+      line-height: 1.8;
+      color: #444;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .values {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 40px;
+      gap: 20px;
+    }
+
+    .value-card {
+      flex: 1 1 280px;
+      background-color: #f1f5ff;
+      border-radius: 10px;
+      padding: 25px;
+      text-align: center;
+      transition: all 0.3s ease;
+      border: 1px solid #dbe2fd;
+    }
+
+    .value-card:hover {
+      background-color: #e3ebff;
+      transform: translateY(-4px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+    }
+
+    .value-card h3 {
+      font-size: 1.3rem;
+      color: green;
+      margin-bottom: 10px;
+    }
+
+    .value-card p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        padding: 40px 20px;
+      }
+
+      .values {
+        flex-direction: column;
+      }
+    }
