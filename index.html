@@ -10,14 +10,23 @@
   </head>
 <body>
 
-  <!--the header-->
+
+  <!-- PRELOADER -->
+<div id="preloader">
+    <div class="loader-container">
+        <div class="logo-ring"></div>
+        <img src="images/davidoo.png" class="preloader-logo" alt="Logo">
+    </div>
+</div>
+
+<!--the header-->
     <header>
         <img src="images/davidoo.png" class="logo-image reveal">
         <i class="fa-solid fa-bars" id="menu-icon"></i>
         <ul class="navbar reveal">                                                     
             <li><a href="http://127.0.0.1:5500/index.html" class="home-active">Home</a></li>
-            <li><a href="http://127.0.0.1:5500/aboutus.html"class="Aboutus">About Us</a></li>
-            <li><a href="http://127.0.0.1:5500/service.html" class="our-services">Our Services</a></li>
+            <li><a href="aboutus.html"class="Aboutus">About Us</a></li>
+            <li><a href="service.html" class="our-services">Our Services</a></li>
         </ul>
         <div class="profile reveal">
             <img src="images/wilson pics.png" class="profile-img">
@@ -25,48 +34,70 @@
             <i class="fa-solid fa-caret-down my-icon"></i>
         </div>
     </header> 
-<section id="enroll">
-  <button class="enroll-button" onclick="toggleForm()">Click to Enroll</button>
+           
 
-  <!-- Enrollment Form -->
-  <div class="enroll-form-container" id="enrollForm">
-    <form onsubmit="handleSubmit(event)">
-      <div>
-        <label for="name">Full Name *</label>
-        <input type="text" id="name" name="name" required>
-      </div>
 
-      <div>
-        <label for="email">Email Address *</label>
-        <input type="email" id="email" name="email" required>
-      </div>
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">
+            100 <span>GENIUS</span> ACADEMY
+        </h1>
 
-      <div>
-        <label for="phone">Phone Number *</label>
-        <input type="tel" id="phone" name="phone" required>
-      </div>
+        <p class="hero-text">
+            Empowering the next generation of creators, innovators, and tech leaders.
+            Learn premium tech skills from industry-standard professionals.
+        </p>
 
-      <div>
-        <label for="course">Select Course *</label>
-        <select id="course" name="course" required>
-          <option value="" disabled selected>-- Choose a course --</option>
-          <option value="Web Development">Web Development</option>
-          <option value="Data Analysis">Data Analysis</option>
-          <option value="UI/UX Design">UI/UX Design</option>
-          <option value="Cybersecurity">Cybersecurity</option>
-        </select>
-      </div>
+        <div class="hero-buttons">
+            <a href="enrol.html" class="hero-btn primary">Enroll Now</a>
+            <a href="aboutus.html" class="hero-btn secondary">Learn More</a>
+        </div>
+    </div>
 
-      <div>
-        <label for="message">Why do you want to join? (optional)</label>
-        <textarea id="message" name="message"></textarea>
-      </div>
+    <div class="hero-image">
+        <img src="images/baby 100.jpg" alt="Tech Students">
+    </div>
+</section>
 
-      <button type="submit">Submit Enrollment</button>
-    </form>
+
+
+<section class="courses">
+  <h1 class="section-title">Our Tech Programs</h1>
+
+  <div class="course-container">
+
+    <div class="course-card reveal">
+      <i class="fa-solid fa-code course-icon"></i>
+      <h3>Full-Stack Web Development</h3>
+      <p>Master HTML, CSS, JavaScript, React, Node.js, APIs and databases to build real-world applications.</p>
+      <a href="enrol.html" class="course-btn">Start Learning</a>
+    </div>
+
+    <div class="course-card reveal">
+      <i class="fa-solid fa-robot course-icon"></i>
+      <h3>Artificial Intelligence & Machine Learning</h3>
+      <p>Learn AI fundamentals, Python, neural networks, data science, and real machine-learning projects.</p>
+      <a href="enrol.html" class="course-btn">Start Learning</a>
+    </div>
+
+    <div class="course-card reveal">
+      <i class="fa-solid fa-palette course-icon"></i>
+      <h3>UI/UX Product Design</h3>
+      <p>Become a modern product designer using Figma, user research, wireframing, and prototyping.</p>
+      <a href="enrol.html" class="course-btn">Start Learning</a>
+    </div>
+
+    <div class="course-card reveal">
+      <i class="fa-solid fa-mobile-screen course-icon"></i>
+      <h3>Mobile App Development</h3>
+      <p>Build Android and iOS apps using Flutter, Dart, Firebase, and modern app architecture.</p>
+      <a href="enrol.html" class="course-btn">Start Learning</a>
+    </div>
+
   </div>
 </section>
-           
+
+  
       <section class="section3">
 
         <div class="why-100genius-container">
@@ -89,6 +120,95 @@
 
 
 
+        <!-- WHY CHOOSE US -->
+<section class="features">
+  <h1 class="section-title">Why Students Choose 100 Genius Academy</h1>
+  <div class="features-container">
+
+    <div class="feature-box reveal">
+      <i class="fa-solid fa-graduation-cap feature-icon"></i>
+      <h3>Expert Mentorship</h3>
+      <p>Our instructors are industry professionals with years of real-world experience.</p>
+    </div>
+
+    <div class="feature-box reveal">
+      <i class="fa-solid fa-laptop-code feature-icon"></i>
+      <h3>Hands-On Projects</h3>
+      <p>Students build practical, portfolio-ready projects in every program.</p>
+    </div>
+
+    <div class="feature-box reveal">
+      <i class="fa-solid fa-people-group feature-icon"></i>
+      <h3>Community Support</h3>
+      <p>You join a supportive network of creators, learners, and innovators.</p>
+    </div>
+
+    <div class="feature-box reveal">
+      <i class="fa-solid fa-briefcase feature-icon"></i>
+      <h3>Job-Ready Training</h3>
+      <p>We teach the exact skills needed to thrive in today’s global tech industry.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- MEET OUR TUTORS -->
+<section class="tutors">
+  <h1 class="section-title">Meet Our Tutors</h1>
+
+  <div class="tutor-container">
+
+    <div class="tutor-card reveal">
+      <img src="images/tutor1.jpg" class="tutor-img">
+      <h3>Michael Adams</h3>
+      <p>Senior Full-Stack Developer</p>
+    </div>
+
+    <div class="tutor-card reveal">
+      <img src="images/tutor2.jpg" class="tutor-img">
+      <h3>Lisa Brown</h3>
+      <p>AI & Machine Learning Specialist</p>
+    </div>
+
+    <div class="tutor-card reveal">
+      <img src="images/tutor3.jpg" class="tutor-img">
+      <h3>David Wilson</h3>
+      <p>Lead UI/UX Designer</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+<section class="testimonials">
+  <h1 class="section-title">What Our Students Say</h1>
+
+  <div class="testimonial-container">
+
+    <div class="testimonial-box reveal">
+      <p>“100 Genius Academy completely transformed my life. I learned web development from zero to job-ready.”</p>
+      <h4>— Daniel U.</h4>
+    </div>
+
+    <div class="testimonial-box reveal">
+      <p>“The mentors are amazing! The practical projects truly helped me become a UI/UX designer.”</p>
+      <h4>— Amanda S.</h4>
+    </div>
+
+    <div class="testimonial-box reveal">
+      <p>“The bootcamp is intense but worth it. Today I work as a junior developer thanks to this academy.”</p>
+      <h4>— Victor O.</h4>
+    </div>
+
+  </div>
+</section>
+
     <section class="section2">
       <div class="about-us">
         <h1>About Us</h1><br>
@@ -109,7 +229,21 @@
       </div>
     </section>
 
-    <hr>
+
+
+<!-- GALLERY -->
+<section class="gallery">
+  <h1 class="section-title">Moments at 100 Genius Academy</h1>
+
+  <div class="gallery-container">
+    <img src="images/class1.jpg" class="gallery-img reveal">
+    <img src="images/event2.jpg" class="gallery-img reveal">
+    <img src="images/workshop3.jpg" class="gallery-img reveal">
+    <img src="images/group4.jpg" class="gallery-img reveal">
+  </div>
+</section>
+
+
     <section class="section23">
       <div class="section3-container">
         <div class="become-genius reveal">
@@ -129,7 +263,7 @@
           <a href="http://127.0.0.1:5500/enrol.html" class="Get-started reveal">Get Started</a><br> <br>
           <h3 class="join-us reveal">Join us now</h3>
           <p class="will reveal">an opportunity to become part of something meaningful, exciting,<br> and impactful. there are countless benefits to getting involved, <br> and the time to take action is now.</p>       
-          <img src="images/obo.jpg" class="firstimage reveal">
+          <img src="images/baby 100.jpg" class="firstimage reveal">
         </div>
         <div class="vertical-line reveal"></div>
         <div class="sharp2 reveal">
@@ -140,6 +274,45 @@
           
         </div>
       </div>
+
+
+
+      <!-- PARTNER WITH US -->
+<section class="partners">
+  <h1 class="section-title">Partner With Us</h1>
+  <p class="partner-text">
+    We collaborate with companies, schools, and organizations to train African tech talents
+    and build a future driven by innovation.
+  </p>
+
+  <div class="partner-buttons">
+    <a href="contact.html" class="partner-btn">Become a Partner</a>
+    <a href="service.html" class="partner-btn secondary">Learn More</a>
+  </div>
+</section>
+
+
+
+
+<section class="faq">
+  <h1 class="section-title">Frequently Asked Questions</h1>
+
+  <div class="faq-box reveal">
+    <button class="accordion">How do I enroll?</button>
+    <div class="panel"><p>Click the Enroll button, fill out the form, and our team will contact you.</p></div>
+
+    <button class="accordion">Do I need a laptop?</button>
+    <div class="panel"><p>Yes, students need a laptop for the training sessions.</p></div>
+
+    <button class="accordion">Are the classes online or physical?</button>
+    <div class="panel"><p>We offer both online and on-site learning options.</p></div>
+
+    <button class="accordion">Do you offer certificates?</button>
+    <div class="panel"><p>Yes! All students receive certificates after completing the program.</p></div>
+  </div>
+
+</section>
+
     </section>
     <section class="section5">   
       <div class="section5-container reveal">
@@ -195,6 +368,10 @@
 </div>
 
     </section>
+
+
+    
+
     <footer class="footer">
   <div class="footer-container">
     <div class="footer-about">
@@ -206,9 +383,9 @@
       <h3>Quick Links</h3>
       <ul>
         <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
-        <li><a href="http://127.0.0.1:5500/css/service.html">Our Services</a></li>
-        <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
-        <li><a href="http://127.0.0.1:5500/enrol.html">Contact</a></li>
+        <li><a href="service.html">Our Services</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="enrol.html">Contact</a></li>
       </ul>
     </div>
 
