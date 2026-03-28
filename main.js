@@ -53,6 +53,41 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+const accordions = document.querySelectorAll(".accordion");
+
+accordions.forEach(acc => {
+  acc.addEventListener("click", function () {
+
+    // Close other open FAQs (optional)
+    accordions.forEach(item => {
+      if (item !== this) {
+        item.classList.remove("active");
+        item.nextElementSibling.style.maxHeight = null;
+      }
+    });
+
+    // Toggle current FAQ
+    this.classList.toggle("active");
+    const panel = this.nextElementSibling;
+
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+});
+
+
+const words = ["Tech Professional", "Web Developer", "AI Engineer", "UI/UX Designer"];
+let i = 0;
+
+setInterval(() => {
+  document.querySelector(".highlight").textContent = words[i];
+  i = (i + 1) % words.length;
+}, 2500);
+
+
 
 
 

@@ -1,59 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/enrol.css">
+  <meta charset="UTF-8">
+  <title>Enroll | 100 Genius Academy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/enrol.css">
+  <link rel="stylesheet" href="./fontawesome/fontawesome-free-6.5.2-web/css/all.css">
 </head>
+
 <body>
-    <section id="enroll">
-  <button class="enroll-button" onclick="toggleForm()">Click to Enroll</button>
+<!--the header-->
+    <header>
+        <img src="images/davidoo.png" class="logo-image reveal">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <ul class="navbar reveal">                                                     
+            <li><a href="http://127.0.0.1:5501/index.html" class="home-active">Home</a></li>
+            <li><a href="aboutus.html"class="Aboutus">About Us</a></li>
+            <li><a href="service.html" class="our-services">Our Services</a></li>
+        </ul>
+        <ul class="navbar reveal">
+       <li><a href="enrol.html" class="register">Register</a></li>
+        </ul>
+        <!----
+        <div class="profile reveal">
+            <img src="images/wilson pics.png" class="profile-img">
+            <span class="profile-span">Bars of IQ</span>
+            <i class="fa-solid fa-caret-down my-icon"></i>
+        </div>
+      -->
+    </header> 
+<section class="enroll-colorful">
 
-  <!-- Advanced Enrollment Form -->
-  <div class="advanced-enroll-form" id="enrollForm">
-    <form onsubmit="handleSubmit(event)">
-      <h2>Join 100 Genius</h2>
-      <p>Get started on your tech journey today.</p>
-
-      <div class="form-group">
-        <i class="fas fa-user"></i>
-        <input type="text" name="name" required>
-        <label>Full Name *</label>
-      </div>
-
-      <div class="form-group">
-        <i class="fas fa-envelope"></i>
-        <input type="email" name="email" required>
-        <label>Email Address *</label>
-      </div>
-
-      <div class="form-group">
-        <i class="fas fa-phone"></i>
-        <input type="tel" name="phone" required>
-        <label>Phone Number *</label>
-      </div>
-
-      <div class="form-group">
-        <i class="fas fa-book"></i>
-        <select name="course" required>
-          <option value="" disabled selected>-- Choose a course --</option>
-          <option value="Web Development">Web Development</option>
-          <option value="Data Analysis">Data Analysis</option>
-          <option value="UI/UX Design">UI/UX Design</option>
-          <option value="Cybersecurity">Cybersecurity</option>
-        </select>
-      </div>
-
-      <div class="form-group textarea-group">
-        <textarea name="message" rows="4"></textarea>
-        <label>Why do you want to join? (optional)</label>
-      </div>
-
-      <button type="submit">Submit</button>
-    </form>
+  <!-- Progress Bar -->
+  <div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
   </div>
+
+  <div class="colorful-card">
+
+    <h1>Enroll at 100 Genius Academy</h1>
+    <p class="subtitle">Complete the form to begin your journey</p>
+
+    <form id="enrollForm">
+
+      <div class="input-group">
+        <input type="text" name="fullName" required>
+        <label>Full Name</label>
+      </div>
+
+      <div class="input-group">
+        <input type="email" name="email" required>
+        <label>Email Address</label>
+      </div>
+
+      <div class="input-group">
+        <input type="tel" name="phone" required>
+        <label>Phone Number</label>
+      </div>
+
+      <div class="input-group">
+        <select name="program" required>
+          <option value="" disabled selected></option>
+          <option>Web Development</option>
+          <option>UI/UX Design</option>
+          <option>AI & Machine Learning</option>
+          <option>Mobile App Development</option>
+        </select>
+        <label>Program</label>
+      </div>
+
+      <div class="input-group">
+        <textarea name="goals" required></textarea>
+        <label>Your Goals</label>
+      </div>
+
+      <button type="submit" id="submitBtn">
+        Submit Application 
+      </button>
+
+    </form>
+
+  </div>
+
 </section>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <img src="images/davidoo.png" alt="100 Genius Logo" class="footer-logo">
+      
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+        <li><a href="service.html">Our Services</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="enrol.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p><i class="fa-solid fa-location-dot"></i> Lagos, Nigeria</p>
+      <p><i class="fa-solid fa-phone"></i> +234 9065643879</p>
+      <p><i class="fa-solid fa-envelope"></i>100sgenius@gmail.com</p>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/company/100-genius/?viewAsMember=true"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/100genius?igsh=MmM0eGR5dmZ1NHV0&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://vm.tiktok.com/ZS98RvJxv9TCS-ymfww/"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <hr>
+    <p>© 2025 100 Genius Academy. All rights reserved.</p>
+  </div>
+</footer>
 <script src="enrol.js"></script>
 </body>
 </html>
