@@ -1,0 +1,15 @@
+# robots.txt for 100genius.africa
+
+# Allow all search engines to crawl the entire site except sensitive areas
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
+# Allow all other pages
+Allow: /
+
+# Link to your sitemap
+Sitemap: https://100genius.africa/sitemap.xml
