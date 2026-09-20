@@ -1,10 +1,10 @@
-import frontendDeveloperImage from "@/assets/mentors/frontend-developer.jpeg";
+import frontendDeveloperImage from "@/assets/mentors/frontend-developer.webp";
 import dataAnalystImage from "@/assets/mentors/data-analyst.webp";
 import graphicDesignerImage from "@/assets/mentors/graphic-designer.webp";
 
 const mentors = [
   {
-    name: "Pascal",
+    name: "Joseph Pascal",
     role: "Software Engineer",
     description:
       "Builds production web apps and mentors developers toward real engineering roles.",
@@ -18,8 +18,8 @@ const mentors = [
     image: dataAnalystImage,
   },
   {
-    name: "James",
-    role: "Product Designer",
+    name: "Adesola Favour",
+    role: "Graphic Designer",
     description:
       "Teaches practical design thinking shaped by years of real client work.",
     image: graphicDesignerImage,

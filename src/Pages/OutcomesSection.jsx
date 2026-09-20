@@ -116,7 +116,7 @@ export default function OutcomesSection() {
             OUTCOMES
         ====================================================== */}
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className=" items-center">
           {/* Left Side: Stats Grid */}
 
           <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-6">
@@ -131,7 +131,7 @@ export default function OutcomesSection() {
 
           {/* Right Side: Hero Image */}
 
-          <FadeUp delay={0.3}>
+          {/* <FadeUp delay={0.3}>
             <div className="w-full h-full min-h-[300px] lg:min-h-[400px] rounded-2xl overflow-hidden shadow-xl relative">
               <img
                 src="/path-to-your-image/dirt-bike.jpg"
@@ -140,7 +140,7 @@ export default function OutcomesSection() {
                 loading="lazy"
               />
             </div>
-          </FadeUp>
+          </FadeUp> */}
         </div>
       </div>
     </section>
