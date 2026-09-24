@@ -73,12 +73,12 @@ function TestimonialsSection() {
         {/* Header */}
         <header className="mx-auto mb-10 max-w-2xl text-center sm:mb-12">
           <FadeUp>
-            <h2
+            <h4
               id="testimonials-heading"
               className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl lg:text-[2rem]"
             >
               From first lesson to first job.
-            </h2>
+            </h4>
           </FadeUp>
 
           <FadeUp delay={0.1}>
@@ -307,12 +307,12 @@ export default function FaqSection({ faqs }) {
             {/* Header */}
             <header className="mb-10 text-center sm:mb-12">
               <FadeUp>
-                <h2
+                <h4
                   id="faq-heading"
                   className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl lg:text-[2rem]"
                 >
                   Questions Before You Apply
-                </h2>
+                </h4>
               </FadeUp>
 
               <FadeUp delay={0.15}>

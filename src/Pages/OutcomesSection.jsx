@@ -61,9 +61,9 @@ export default function OutcomesSection() {
 
         <FadeUp delay={0.05}>
           <div className="mb-20">
-            <h3 className="text-xs md:text-sm font-semibold text-muted uppercase tracking-widest text-center mb-8">
+            <h2 className="text-xs md:text-sm font-semibold text-muted uppercase tracking-widest text-center mb-8">
               Our Graduates Work At
-            </h3>
+            </h2>
 
             <div className="overflow-hidden flex w-full group">
               <ul className="animate-marquee items-center gap-12 pr-12 text-muted font-medium text-sm md:text-base">

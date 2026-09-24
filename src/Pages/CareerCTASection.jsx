@@ -22,15 +22,15 @@ export default function CareerCTASection({ slug }) {
 
           {/* Main heading */}
           <FadeUp delay={0.1}>
-            <h2
+            <h4
               id="career-cta-title"
               className="max-w-3xl text-background"
             >
-              Your Tech Career Is{" "}
+              Your Tech Career Is
               <span className="text-emerald-400">
                 One Decision Away
               </span>
-            </h2>
+            </h4>
           </FadeUp>
 
           {/* Supporting copy */}

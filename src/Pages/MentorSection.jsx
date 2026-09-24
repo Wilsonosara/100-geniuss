@@ -182,12 +182,12 @@ export default function MentorsSection() {
         <div className="grid items-center gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:gap-1">
           {/* Intro */}
           <div className="max-w-[480px]">
-            <h2 className="text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
+            <h3 className="text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
               You're not learning from a course. You're{" "}
               <span className="text-primary">learning</span> from the{" "}
               <span className="text-primary">people</span> doing the{" "}
               <span className="text-primary">work.</span>
-            </h2>
+            </h3>
 
             <p className="mt-6 max-w-[440px] text-base leading-relaxed text-muted-foreground sm:text-lg">
               Every mentor is a working professional first, and a teacher

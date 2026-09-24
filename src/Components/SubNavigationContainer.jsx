@@ -12,7 +12,6 @@ export default function SubNavigationContainer({
   onClose,
 }) {
   const location = useLocation();
-  console.log("Current location:", location.pathname);
 
   /*
    * Determine which sub-navigation content

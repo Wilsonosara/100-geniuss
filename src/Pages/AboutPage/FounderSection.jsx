@@ -330,17 +330,7 @@ export default function FounderSection() {
                       0{index + 1}
                     </span>
 
-                    <span
-                      className="
-                        text-[9px]
-                        font-semibold
-                        uppercase
-                        tracking-[0.2em]
-                        text-white/40
-                      "
-                    >
-                      Founder
-                    </span>
+          
                   </div>
 
                   {/* Hover arrow */}
